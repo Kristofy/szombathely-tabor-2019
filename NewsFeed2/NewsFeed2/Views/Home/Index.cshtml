@@ -1,0 +1,17 @@
+﻿@model List<Article>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <div>
+        <h1>News Feed</h1>
+    </div>
+        <div class="container">
+        <ul class="list-group">
+            @foreach (Article article in Model)
+            {
+                <li class= "list-group-item list-group-item-info"><a class="btn btn-primary" asp-controller="Home" asp-action="Article" asp-route-id="@article.PublishTime.Ticks">@article.Title</a></li>
+            }
+         </ul>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿@model Article
+@{
+    ViewData["Title"] = "Article";
+}
+
+<h2 class="text-center">Article</h2>
+
+<hr class="bg-info" />
+
+<div class="container list-group">
+    <h2 class="list-group-item">@Model.Title</h2>
+    <h4 class="list-group-item">@Model.PublishTime.ToString("F")</h4>
+    <div class="list-group-item-text list-group-item  mt-3">
+        <h4>@Model.Description</h4>
+    </div>
+</div>

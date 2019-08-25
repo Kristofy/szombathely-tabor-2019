@@ -1,0 +1,10 @@
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\bin\Debug\EmailKuldo.exe.config
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\bin\Debug\EmailKuldo.exe
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\bin\Debug\EmailKuldo.pdb
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\obj\Debug\EmailKuldo.csprojAssemblyReference.cache
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\obj\Debug\EmailKuldo.Properties.Resources.resources
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\obj\Debug\EmailKuldo.csproj.GenerateResource.cache
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\obj\Debug\EmailKuldo.csproj.CoreCompileInputs.cache
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\obj\Debug\EmailKuldo.exe
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\obj\Debug\EmailKuldo.pdb
+C:\Users\labor\source\repos\EmailKuldo\EmailKuldo\obj\Debug\EmailKuldo.Form1.resources

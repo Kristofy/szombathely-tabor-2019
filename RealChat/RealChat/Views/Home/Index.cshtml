@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-center">Real-Chat</h1>
+
+<!-- Üzenet küldés -->
+<div class="form-group w-50">
+    <b class="form-control">Username:</b>
+    <input class="form-control" type="text" id="usernameInput" />
+    <br />
+    <b class="form-control" >Message:</b>
+    <input class="form-control" type="text" id="messageInput" value="" />
+    <br />  
+    <input class="btn btn-info" type="button" id="sendBtn" value="Küldés" />
+    <input class="form-control" type="color" id="colorPicker" value="" />
+</div>
+
+<!-- Üzenetsor -->
+<h2>Üzenetek:</h2>
+<div id="messageList"></div>
+
+
+<script src="lib/signalr/dist/browser/signalr.js"></script>
+<script src="js/chat.js"></script>

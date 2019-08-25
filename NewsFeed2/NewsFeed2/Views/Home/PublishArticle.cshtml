@@ -1,0 +1,31 @@
+﻿@model Article
+@{
+    ViewData["Title"] = "PublishArticle";
+}
+
+<h2 class="text-center">PublishArticle</h2>
+
+@using (Html.BeginForm())
+{
+
+    <b>Title:</b>
+    @Html.TextBoxFor(model => model.Title, new { autocomplete = "off", @class="form-control"})
+    <br />
+
+    <b>Description:</b><br />
+    @Html.TextBoxFor(model => model.Description, new { autocomplete = "off" , @class="form-control"})
+                       <hr class="my-2" />
+    <input class="form-control btn btn-info" type="submit" value="Publish" />
+}
+<!--
+<form class="form-group">
+    <div >
+        <label for="name">A cikk címe:</label><br />
+        <input class="form-control" id="name" type="text"  />
+    </div>
+    <div>
+        <label for="disc">A cikk leírása:</label><br />
+        <input class="form-control" id="disc" type="text"  \ />
+    </div>
+</form>
+    -->
